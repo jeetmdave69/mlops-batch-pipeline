@@ -1,0 +1,24 @@
+2026-02-20 12:48:04,666 - INFO - Job started
+2026-02-20 12:48:04,669 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 12:48:04,674 - ERROR - Error occurred: No columns to parse from file
+2026-02-20 12:51:07,134 - INFO - Job started
+2026-02-20 12:51:07,136 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 12:51:07,173 - INFO - Data loaded: 7 rows
+2026-02-20 12:51:07,178 - INFO - Rolling mean calculated with window=5
+2026-02-20 12:51:07,180 - INFO - Signals generated
+2026-02-20 12:51:07,181 - INFO - Metrics: signal_rate=0.4286, rows_processed=7
+2026-02-20 12:51:07,182 - INFO - Job completed successfully in 46ms
+2026-02-20 13:04:08,338 - INFO - Job started
+2026-02-20 13:04:08,340 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 13:04:08,356 - INFO - Data loaded: 7 rows
+2026-02-20 13:04:08,361 - INFO - Rolling mean calculated with window=5
+2026-02-20 13:04:08,363 - INFO - Signals generated
+2026-02-20 13:04:08,364 - INFO - Metrics: signal_rate=0.4286, rows_processed=7
+2026-02-20 13:04:08,366 - INFO - Job completed successfully in 26ms
+2026-02-20 13:16:49,522 - INFO - Job started
+2026-02-20 13:16:49,525 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-20 13:16:49,558 - INFO - Data loaded: 7 rows
+2026-02-20 13:16:49,579 - INFO - Rolling mean calculated with window=5
+2026-02-20 13:16:49,584 - INFO - Signals generated
+2026-02-20 13:16:49,593 - INFO - Metrics: signal_rate=0.4286, rows_processed=7
+2026-02-20 13:16:49,598 - INFO - Job completed successfully in 71ms
