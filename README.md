@@ -12,6 +12,12 @@ This project implements a simple, reproducible MLOps-style batch pipeline for ge
 * Log the full execution lifecycle
 * Run locally and inside a Docker container
 
+## Dataset Note
+
+The assignment document referenced a 10,000-row cryptocurrency OHLCV dataset named `data.csv`. In the absence of an officially provided dataset, a deterministic synthetic OHLCV dataset (10,000 rows) was generated for demonstration purposes. 
+
+The dataset was generated using a fixed random seed to ensure reproducibility and consistent metric outputs across runs.
+
 
 
 ## Project Structure

@@ -22,3 +22,17 @@
 2026-02-20 13:16:49,584 - INFO - Signals generated
 2026-02-20 13:16:49,593 - INFO - Metrics: signal_rate=0.4286, rows_processed=7
 2026-02-20 13:16:49,598 - INFO - Job completed successfully in 71ms
+2026-02-21 11:00:07,114 - INFO - Job started
+2026-02-21 11:00:07,131 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-21 11:00:07,158 - INFO - Data loaded: 10000 rows
+2026-02-21 11:00:07,167 - INFO - Rolling mean calculated with window=5
+2026-02-21 11:00:07,168 - INFO - Signals generated
+2026-02-21 11:00:07,169 - INFO - Metrics: signal_rate=0.4971, rows_processed=10000
+2026-02-21 11:00:07,171 - INFO - Job completed successfully in 54ms
+2026-02-21 11:09:38,442 - INFO - Job started
+2026-02-21 11:09:38,443 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-21 11:09:38,475 - INFO - Data loaded: 10000 rows
+2026-02-21 11:09:38,484 - INFO - Rolling mean calculated with window=5
+2026-02-21 11:09:38,487 - INFO - Signals generated
+2026-02-21 11:09:38,488 - INFO - Metrics: signal_rate=0.4971, rows_processed=10000
+2026-02-21 11:09:38,490 - INFO - Job completed successfully in 46ms
