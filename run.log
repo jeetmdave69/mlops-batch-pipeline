@@ -1,57 +1,7 @@
-2026-02-20 12:48:04,666 - INFO - Job started
-2026-02-20 12:48:04,669 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-20 12:48:04,674 - ERROR - Error occurred: No columns to parse from file
-2026-02-20 12:51:07,134 - INFO - Job started
-2026-02-20 12:51:07,136 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-20 12:51:07,173 - INFO - Data loaded: 7 rows
-2026-02-20 12:51:07,178 - INFO - Rolling mean calculated with window=5
-2026-02-20 12:51:07,180 - INFO - Signals generated
-2026-02-20 12:51:07,181 - INFO - Metrics: signal_rate=0.4286, rows_processed=7
-2026-02-20 12:51:07,182 - INFO - Job completed successfully in 46ms
-2026-02-20 13:04:08,338 - INFO - Job started
-2026-02-20 13:04:08,340 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-20 13:04:08,356 - INFO - Data loaded: 7 rows
-2026-02-20 13:04:08,361 - INFO - Rolling mean calculated with window=5
-2026-02-20 13:04:08,363 - INFO - Signals generated
-2026-02-20 13:04:08,364 - INFO - Metrics: signal_rate=0.4286, rows_processed=7
-2026-02-20 13:04:08,366 - INFO - Job completed successfully in 26ms
-2026-02-20 13:16:49,522 - INFO - Job started
-2026-02-20 13:16:49,525 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-20 13:16:49,558 - INFO - Data loaded: 7 rows
-2026-02-20 13:16:49,579 - INFO - Rolling mean calculated with window=5
-2026-02-20 13:16:49,584 - INFO - Signals generated
-2026-02-20 13:16:49,593 - INFO - Metrics: signal_rate=0.4286, rows_processed=7
-2026-02-20 13:16:49,598 - INFO - Job completed successfully in 71ms
-2026-02-21 11:00:07,114 - INFO - Job started
-2026-02-21 11:00:07,131 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-21 11:00:07,158 - INFO - Data loaded: 10000 rows
-2026-02-21 11:00:07,167 - INFO - Rolling mean calculated with window=5
-2026-02-21 11:00:07,168 - INFO - Signals generated
-2026-02-21 11:00:07,169 - INFO - Metrics: signal_rate=0.4971, rows_processed=10000
-2026-02-21 11:00:07,171 - INFO - Job completed successfully in 54ms
-2026-02-21 11:09:38,442 - INFO - Job started
-2026-02-21 11:09:38,443 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-21 11:09:38,475 - INFO - Data loaded: 10000 rows
-2026-02-21 11:09:38,484 - INFO - Rolling mean calculated with window=5
-2026-02-21 11:09:38,487 - INFO - Signals generated
-2026-02-21 11:09:38,488 - INFO - Metrics: signal_rate=0.4971, rows_processed=10000
-2026-02-21 11:09:38,490 - INFO - Job completed successfully in 46ms
-2026-02-26 11:55:20,707 - INFO - Job started
-2026-02-26 11:55:20,730 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-26 11:55:20,800 - ERROR - Error occurred: Missing required 'close' column.
-2026-02-26 11:55:56,830 - INFO - Job started
-2026-02-26 11:55:56,832 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-26 11:55:56,853 - ERROR - Error occurred: Missing required 'close' column.
-2026-02-26 12:00:42,664 - INFO - Job started
-2026-02-26 12:00:42,666 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-26 12:00:42,699 - ERROR - Error occurred: Missing required 'close' column.
-2026-02-26 12:03:16,301 - INFO - Job started
-2026-02-26 12:03:16,303 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-26 12:03:16,345 - ERROR - Error occurred: Missing required 'close' column.
-2026-02-26 12:06:09,443 - INFO - Job started
-2026-02-26 12:06:09,444 - INFO - Config loaded: seed=42, window=5, version=v1
-2026-02-26 12:06:09,467 - INFO - Data loaded: 10000 rows
-2026-02-26 12:06:09,477 - INFO - Rolling mean calculated with window=5
-2026-02-26 12:06:09,479 - INFO - Signals generated
-2026-02-26 12:06:09,481 - INFO - Metrics: signal_rate=0.4989, rows_processed=10000
-2026-02-26 12:06:09,483 - INFO - Job completed successfully in 38ms
+2026-02-26 12:21:26,721 - INFO - Job started
+2026-02-26 12:21:26,723 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-26 12:21:26,760 - INFO - Data loaded: 10000 rows
+2026-02-26 12:21:26,765 - INFO - Rolling mean calculated with window=5
+2026-02-26 12:21:26,767 - INFO - Signals generated
+2026-02-26 12:21:26,768 - INFO - Metrics: signal_rate=0.4989, rows_processed=10000
+2026-02-26 12:21:26,769 - INFO - Job completed successfully in 47ms
