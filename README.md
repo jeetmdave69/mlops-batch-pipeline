@@ -158,23 +158,15 @@ The container:
 
 ## **Example Metrics Output**
 
-**{**
-
-  **"version": "v1",**
-
-  **"rows\_processed": 7,**
-
-  **"metric": "signal\_rate",**
-
-  **"value": 0.4286,**
-
-  **"latency\_ms": 26,**
-
-  **"seed": 42,**
-
-  **"status": "success"**
-
-**}**
+\{\s*
+"version"\s*:\s*"v1"\s*,\s*
+"rows_processed"\s*:\s*\d+\s*,\s*
+"metric"\s*:\s*"signal_rate"\s*,\s*
+"value"\s*:\s*\d+(\.\d+)?\s*,\s*
+"latency_ms"\s*:\s*\d+\s*,\s*
+"seed"\s*:\s*\d+\s*,\s*
+"status"\s*:\s*"success"\s*
+\}
 
 
 
@@ -218,6 +210,7 @@ The container:
 * **No hard-coded paths are used.**
 * **Results are reproducible across runs due to fixed random seed.**
 * **Logging provides full traceability of the execution process.**
+
 
 
 
