@@ -36,3 +36,22 @@
 2026-02-21 11:09:38,487 - INFO - Signals generated
 2026-02-21 11:09:38,488 - INFO - Metrics: signal_rate=0.4971, rows_processed=10000
 2026-02-21 11:09:38,490 - INFO - Job completed successfully in 46ms
+2026-02-26 11:55:20,707 - INFO - Job started
+2026-02-26 11:55:20,730 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-26 11:55:20,800 - ERROR - Error occurred: Missing required 'close' column.
+2026-02-26 11:55:56,830 - INFO - Job started
+2026-02-26 11:55:56,832 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-26 11:55:56,853 - ERROR - Error occurred: Missing required 'close' column.
+2026-02-26 12:00:42,664 - INFO - Job started
+2026-02-26 12:00:42,666 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-26 12:00:42,699 - ERROR - Error occurred: Missing required 'close' column.
+2026-02-26 12:03:16,301 - INFO - Job started
+2026-02-26 12:03:16,303 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-26 12:03:16,345 - ERROR - Error occurred: Missing required 'close' column.
+2026-02-26 12:06:09,443 - INFO - Job started
+2026-02-26 12:06:09,444 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-26 12:06:09,467 - INFO - Data loaded: 10000 rows
+2026-02-26 12:06:09,477 - INFO - Rolling mean calculated with window=5
+2026-02-26 12:06:09,479 - INFO - Signals generated
+2026-02-26 12:06:09,481 - INFO - Metrics: signal_rate=0.4989, rows_processed=10000
+2026-02-26 12:06:09,483 - INFO - Job completed successfully in 38ms

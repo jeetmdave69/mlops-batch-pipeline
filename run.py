@@ -44,7 +44,6 @@ def main():
     logging.info("Job started")
 
     try:
-        # Load config
         config = load_config(args.config)
         seed = config["seed"]
         window = config["window"]
@@ -54,7 +53,6 @@ def main():
 
         np.random.seed(seed)
 
-        # Validate input
         if not os.path.exists(args.input):
             raise FileNotFoundError("Input file not found.")
 
@@ -68,11 +66,9 @@ def main():
 
         logging.info(f"Data loaded: {len(df)} rows")
 
-        # Rolling mean
         df["rolling_mean"] = df["close"].rolling(window=window).mean()
         logging.info(f"Rolling mean calculated with window={window}")
 
-        # Signal generation
         df["signal"] = (df["close"] > df["rolling_mean"]).astype(int)
         logging.info("Signals generated")
 
@@ -81,7 +77,9 @@ def main():
 
         latency_ms = int((time.time() - start_time) * 1000)
 
-        logging.info(f"Metrics: signal_rate={round(float(signal_rate),4)}, rows_processed={rows_processed}")
+        logging.info(
+            f"Metrics: signal_rate={round(float(signal_rate), 4)}, rows_processed={rows_processed}"
+        )
 
         output = {
             "version": version,
