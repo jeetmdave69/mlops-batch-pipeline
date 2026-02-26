@@ -158,15 +158,18 @@ The container:
 
 ## **Example Metrics Output**
 
-\{\s*
-"version"\s*:\s*"v1"\s*,\s*
-"rows_processed"\s*:\s*\d+\s*,\s*
-"metric"\s*:\s*"signal_rate"\s*,\s*
-"value"\s*:\s*\d+(\.\d+)?\s*,\s*
-"latency_ms"\s*:\s*\d+\s*,\s*
-"seed"\s*:\s*\d+\s*,\s*
-"status"\s*:\s*"success"\s*
-\}
+## Example Metrics Output
+
+```json
+{
+  "version": "v1",
+  "rows_processed": 10000,
+  "metric": "signal_rate",
+  "value": 0.4989,
+  "latency_ms": 38,
+  "seed": 42,
+  "status": "success"
+}
 
 
 
@@ -210,6 +213,7 @@ The container:
 * **No hard-coded paths are used.**
 * **Results are reproducible across runs due to fixed random seed.**
 * **Logging provides full traceability of the execution process.**
+
 
 
 
