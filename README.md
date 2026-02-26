@@ -14,9 +14,20 @@ This project implements a simple, reproducible MLOps-style batch pipeline for ge
 
 ## Dataset Note
 
-The assignment document referenced a 10,000-row cryptocurrency OHLCV dataset named `data.csv`. In the absence of an officially provided dataset, a deterministic synthetic OHLCV dataset (10,000 rows) was generated for demonstration purposes. 
+The project uses a 10,000-row cryptocurrency OHLCV dataset (data.csv) as specified in the assignment requirements.
 
-The dataset was generated using a fixed random seed to ensure reproducibility and consistent metric outputs across runs.
+The dataset includes the following columns:
+
+1. timestamp
+2. open
+3. high
+4. low
+5. close
+6. volume_btc
+7. volume_usd
+
+In accordance with the task instructions, only the close column is used for rolling mean computation and signal generation.
+The dataset has been validated for structure, formatting, and completeness to ensure correct processing within both local and Docker environments.
 
 
 
@@ -207,6 +218,7 @@ The container:
 * **No hard-coded paths are used.**
 * **Results are reproducible across runs due to fixed random seed.**
 * **Logging provides full traceability of the execution process.**
+
 
 
 
